@@ -1,0 +1,215 @@
+// import font family 
+@font-face {
+	font-family: GaleySemiBold;
+	src: url(/IFonts/GaleySemiBold.ttf);
+}
+
+// sass style variables
+$font_white: #f5f5f5;
+$font_black: #000000;
+$mainFont: GaleySemiBold;
+$bg_white: #f5f5f5;
+$bg_darkGrey: #383838;
+$bg_grey: #575757;
+$bg_teal: #2EF3E0;
+$bg_gold: #F8D232;
+$bg_pink: #FF4181;
+
+// main styles
+body {
+    margin-top: 3%;
+}
+
+#leftCol {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+// cat criteria container styles
+#criteriaC {
+	font-family: $mainFont;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+	float: left;
+	width: 60%;
+	margin-left: 8%;
+ 	background-color: $bg_grey;
+	padding: 20px 5px;
+    z-index: -1;
+    padding: 25px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25));    
+}
+
+#divCoatO {
+	margin: 20px 20px;
+    padding: 10px;
+    background-color: $bg_teal;
+    border-radius: 40px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25));  
+}
+#divCoatI {
+	background-color: $bg_white;
+    margin: 20px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    padding: 20px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+}
+#divPatternO {
+	margin: 20px 20px;
+    padding: 10px;
+    background-color: $bg_gold;
+    border-radius: 40px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25));  
+}
+#divPatternI {
+	background-color: $bg_white;
+    margin: 20px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    padding: 20px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+}
+#divCountryO {
+	margin: 20px 20px;
+    padding: 10px;
+    background-color: $bg_pink;
+    border-radius: 40px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+}
+#divCountryI {
+	background-color: $bg_white;
+    margin: 20px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    padding: 20px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+}
+
+// cat dropdown styles
+#catSC {
+	font-family: $mainFont;
+    text-align: center;
+    font-size: 1.2em;
+	float: left;
+	width: 60%;
+    margin-top: 10px;
+	margin-left: 8%;
+ 	background-color: $bg_grey;
+	padding: 20px 25px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25));  
+}
+#catSInner {
+    padding: 20px;
+	background-color: $bg_teal;
+    border-radius: 20px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25));
+}
+#catSelect {
+    font-family: $mainFont;;
+    font-size: 1.2em;
+    width: 80%;
+	background-color: $bg_white;
+    padding: 10px;
+    border-radius: 20px;
+	filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25));
+}
+
+// right column styles
+#catTwo {
+	float: right;
+	position: absolute;
+	width: 690px;
+	height: 400px;
+	left: 800px;
+	top: 60px;
+	object-fit: cover;
+	object-position: 18% 60%;
+	border: black solid 5px;
+	box-shadow: 2px 6px 4px rgba(0, 0, 0, 0.25);
+		}
+
+
+#rectY {
+	position: absolute;
+	width: 600px;
+	height: 100px;
+	left: 700px;
+	top: 440px;
+	z-index: -100;
+	background: $bg_gold;
+	border-radius: 0px;
+	box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.35);
+}
+#homeBtn {
+	position: absolute;
+	height: 84px;
+	width: 357px;
+	left: 870px;
+	top: 600px;
+	z-index: 100;
+	border-radius: 20px;
+	background-color: $bg_darkGrey;
+	color: $font_white;
+	font-family: $mainFont;
+	font-size: 2em;
+	filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25));
+}
+
+// media query styles for max 600
+@media only screen and (max-width: 600px) {
+	
+    body {
+        margin-top: 10px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #leftCol {
+    width: 100%;
+    }
+
+    #criteriaC {
+		width: 80%;
+		float: left;
+		margin: 30px;
+        padding: 10px;
+	}
+
+	#catSC {
+		width: 73%;
+		float: left;
+
+    }
+
+    #homeBtn {
+        position: relative;
+        display: block;
+        top: 0px;
+        left: 0px;
+        width: 85%;
+		float: left;
+		margin: 30px;
+        padding: 20px;
+        background-color:$bg_darkGrey;
+        color: $font_white;
+        border-radius: 20px;
+        font-family: $mainFont;;
+        font-size: 1.3em;
+        filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25));
+    }
+
+	#catTwo {
+		display: none;
+	}
+	#rectY {
+		display: none;
+	}
+}
+
+/*# sourceMappingURL=catSelect.css.map */

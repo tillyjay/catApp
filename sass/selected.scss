@@ -1,0 +1,250 @@
+// import font family 
+@font-face {
+	font-family: GaleySemiBold;
+	src: url(/IFonts/GaleySemiBold.ttf);
+}
+
+// sass style variables
+$font_white: #f5f5f5;
+$font_black: #000000;
+$mainfont: GaleySemiBold;
+$bg_white: #f5f5f5;
+$bg_darkGrey: #383838;
+$bg_grey: #575757;
+$bg_teal: #2EF3E0;
+$bg_gold: #F8D232;
+$bg_pink: #FF4181;
+
+// main styles
+body {
+    margin-top: 3%;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: $mainfont;
+}
+
+// cat criteria container styles
+#criteriaC {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: $bg_grey;
+    width: 39%;
+    height: 60%;
+    padding: 20px;
+    margin: 0px 3% 30px 5%; 
+    border-radius: 20px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25));  
+}
+
+#divCoatO {
+	margin: 20px;
+    padding: 10px;
+    background-color: $bg_teal;
+    border-radius: 40px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25));  
+}
+#divCoatI {
+	background-color: $bg_white;
+    margin: 20px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    padding: 20px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+}
+#divPatternO {
+	margin: 20px;
+    padding: 10px;
+    background-color: $bg_gold;
+    border-radius: 40px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25));  
+}
+#divPatternI {
+	background-color: $bg_white;
+    margin: 20px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    padding: 20px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+}
+#divCountryO {
+	margin: 20px;
+    padding: 10px;
+    background-color: $bg_pink;
+    border-radius: 40px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+}
+#divCountryI {
+	background-color: $bg_white;
+    margin: 20px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    padding: 20px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+}
+
+// cat title container styles
+#titleC {
+    width: 35%;
+    height: 20%;
+    margin: 0px 7% 10px 7%; 
+    background-color: $bg_gold;
+    padding: 25px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+}
+
+#titleI {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 1.3em;
+    border-radius: 20px;
+    padding: 20px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+}
+
+// cat image styles
+#imgDiv {
+    margin: 10px 2% 30px 5%;
+    padding: 5px;
+    width: 33%;
+    height: 28%;
+    z-index: 200;
+    background-color: #000000;
+    border-radius: 20px;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+}
+
+#breedImg {
+    border-radius: 40px;
+    padding: 20px;
+    width: 92%;
+    filter: drop-shadow(2px 6px 4px rgba(139, 139, 139, 0.5)); 
+}
+
+// right column styles
+#rectP {
+    position: absolute;
+    width: 750px;
+    height: 130px;
+    background-color: $bg_pink;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.35);
+    top: 300px;
+    left: 800px;
+    z-index: -1000;
+}
+
+#homeBtn {
+    margin: 2% 0% 10% 5%;
+    padding: 25px 60px;
+    background-color: #383838;
+    border-radius: 20px;
+    font-family: $mainfont;
+    color: $font_white;
+    font-size: 1.4em;
+    filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+}
+
+// media query styles for max 600
+@media only screen and (max-width: 600px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        margin: 5% 10%;
+    }
+
+    #criteriaC {
+        width: 80%;
+        margin: 0px auto 20px auto;
+    }
+
+    #divCoatO {
+        padding: 10px;
+        margin: 0px;
+        background-color: $bg_teal;
+        border-radius: 40px;
+        filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25));  
+    }
+    
+    #divCoatI {
+	    background-color: $bg_white;
+        margin: 20px;
+        padding: 20px 40px;
+        border-radius: 20px;
+        padding: 20px;
+        filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+    }
+
+    #divPatternO {
+        padding: 10px;
+        margin: 20px 0px;
+        background-color: $bg_gold;
+        border-radius: 40px;
+        filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25));  
+    }
+
+    #divPatternI {
+	    background-color: $bg_white;
+        margin: 20px;
+        padding: 20px 40px;
+        border-radius: 20px;
+        padding: 20px;
+        filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+    }
+
+    #divCountryO {
+	    margin: 0px;
+        padding: 10px;
+        background-color: $bg_pink;
+        border-radius: 40px;
+        filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+    }
+    
+    #divCountryI {
+	    background-color: $bg_white;
+        margin: 20px;
+        padding: 20px 40px;
+        border-radius: 20px;
+        padding: 20px;
+        filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+    }
+
+    #titleC {
+        margin: 20px auto;
+        width: 60%;
+    }
+
+    #imgDiv {
+        margin: 20px 20% 20px 3%;
+        margin: 20px auto;
+        width: 80%;
+        padding: 10px 30px 10px 10px;
+        height: 40%; 
+    }
+
+    #homeBtn {
+        margin: 2% auto;
+        width: 60%;
+        padding: 25px 35px;
+        background-color: #383838;
+        border-radius: 20px;
+        font-family: $mainfont;
+        color: $font_white;
+        font-size: 1.4em;
+        filter: drop-shadow(2px 6px 4px rgba(0, 0, 0, 0.25)); 
+    }
+
+    #rectP {
+        display: block; 
+        top: 100px;
+        left: 10px;
+        width: 100%;
+    }
+}
+
+
+
+
+/*# sourceMappingURL=selected.css.map */
