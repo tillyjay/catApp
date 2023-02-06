@@ -1,52 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>  
+<head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Selection</title>
     <link href="/sass/catSelect.css" rel="stylesheet"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 </head>
-
-<body>
-    <div id="leftCol">
-        <div id="criteriaC">
-            <div id="divCoatO">
-                <div id="divCoatI">Coat: null</div>
-            </div>
-
-            <div id="divPatternO">
-                <div id="divPatternI">Pattern: null</div>
-            </div>
-
-            <div id="divCountryO">
-                <div id="divCountryI">Country: null</div>
-            </div>
-        </div>
-    </div>
-
-    <div id="formDiv">
-        <form method="get" id="catForm" action="/HTML/selected.html">
-            <div id="leftCol">
-                <div id="catSC">
-                    <div id="catSInner">
-                        <select id="catSelect" name="catSelect">
-                            <option>Breeds</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-        </form>
-    </div>
-
-    <img src="/Images/cat2.jpg" id="catTwo" width="600px" height="500px" alt="Orange Cat">
-    <div id="rectY"></div>
-    
-    <button id="homeBtn">Home</button>
-
-    <script src="catSelect.js"></script>
-</body>
+    <body>  
+        <script src="/scripts/catSelect.js"></script>
+    </body>
 </html>
+
 
 <!-- https://cdnjs.com/libraries/jquery for minified jquery usage -->
 <!-- https://unsplash.com/ for cat image -->
