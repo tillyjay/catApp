@@ -1,18 +1,30 @@
-# catApp
-The application is an interface where the user can select three different cat characteristics and the app will match you with the perfect cat. The site is desktop and mobile friendly.
+# Cat App
+This application provides users with a fun interface to select three different cat characteristics, and based on their choices, the app will match them with the perfect cat. Whether you are a fan of fluffy tails, playful antics, or a specific color pattern, this app has your ideal feline companion. The site is designed to be both desktop and mobile-friendly, ensuring a seamless experience for users across various devices.
 
-The app was created using JavaScript’s fetch function to grab data from an API, sort and filter it with three separate JS array methods to return a selected piece of data. The app also leveraged a jQuery library and was styled entirely using SASS. The elements were also created dynamically with DOM manipulation.
+## Features
+- Cat Characteristics: Select three different cat characteristics to find your perfect feline match.
+- Responsive Design: Enjoy a seamless experience on both desktop and mobile devices.
+- Fun Pop Up: To let you know you've recieved your daily dose of cat and are no longer incatpacitaed.
 
-Working with an API was a challenging new experience but was a great exercise in working with data. Additionally, this was my first-time using SASS; a bit of a learning curve, but I now understand why incorporating variables into styling can be super beneficial in writing concise code.
+## Technologies Used
+- JavaScript (fetch function for API data)
+- jQuery library
+- SASS (for styling)
+- DOM Manipulation
 
-Home page in desktop view
+## Challenges Faced
+- API Integration: Utilizing JavaScript's fetch function to grab data from an API was a challenging yet valuable experience, enhancing my understanding of working with external data sources.
+- SASS Styling: This project marked my first time using SASS, introducing a learning curve. However, the experience highlighted the benefits of incorporating variables into styling for more concise code.
 
+## Future Improvements 
+- Additional Cat Characteristics: Expand the app's features to include more cat characteristics for a more comprehensive matching experience.
+  User Profiles: Implement user profiles to save and track users' preferred cat characteristics.
+
+### Home page in desktop view
 ![gitHubCatApp](https://user-images.githubusercontent.com/97525044/218125131-806dc317-f504-4d01-bcb6-36a634ec4cce.png)
 
-Cat selection
-
+### Cat selection
 ![catApp2](https://user-images.githubusercontent.com/97525044/218125665-743b9828-320a-49ba-8db4-db1b45e1531b.png)
 
-Selected outcome 
-
+### Selected outcome 
 ![catApp3](https://user-images.githubusercontent.com/97525044/218125864-763600ea-fc05-483e-b63f-c5fc7739c49d.png)
