@@ -18,7 +18,7 @@ This application provides users with a fun interface to select three different c
 
 ## Future Improvements 
 - Additional Cat Characteristics: Expand the app's features to include more cat characteristics for a more comprehensive matching experience.
-  User Profiles: Implement user profiles to save and track users' preferred cat characteristics.
+- User Profiles: Implement user profiles to save and track users' preferred cat characteristics.
 
 ### Home page in desktop view
 ![gitHubCatApp](https://user-images.githubusercontent.com/97525044/218125131-806dc317-f504-4d01-bcb6-36a634ec4cce.png)
