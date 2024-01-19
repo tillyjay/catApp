@@ -12,7 +12,7 @@ This application provides users with a fun interface to select three different c
 - SASS (for styling)
 - DOM Manipulation
 
-## Challenges Faced
+## Challenges 
 - API Integration: Utilizing JavaScript's fetch function to grab data from an API was a challenging yet valuable experience, enhancing my understanding of working with external data sources.
 - SASS Styling: This project marked my first time using SASS, introducing a learning curve. However, the experience highlighted the benefits of incorporating variables into styling for more concise code.
 
